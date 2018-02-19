@@ -73,3 +73,7 @@ The required JS libraries are included in the project, but it also possible to m
 * Install Grunt `npm install -g grunt-cli`  for more information please go to http://gruntjs.com/getting-started.
 
 * Run the command 'grunt' to download all the web dependencies and build an optimized version of the project.
+
+## Eclipse plugin(moxy) Error in deploying ##
+java.lang.NoClassDefFoundError: Could not initialize class org.eclipse.persistence.jaxb.BeanValidationHelper
+Reference Link : https://stackoverflow.com/questions/33319659/moxy-exceptions-in-javaee-jersey-2-0-project
